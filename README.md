@@ -29,9 +29,8 @@ func main() {
 ## Parameters
 
 #### Required
-  * BotURL
-    You can add a Bot from "Edit topic" and get BotURL from "Get or post messages URL"
-    see: https://nulab-inc.com/blog/typetalk/typetalk-update-create-bots-easily-use-webhook/
+  * ```BotURL``` : 
+    You can add a Bot from "Edit topic" and get BotURL from "Get or post messages URL" ( see: https://nulab-inc.com/blog/typetalk/typetalk-update-create-bots-easily-use-webhook/ )
   
 ## Installation
 
