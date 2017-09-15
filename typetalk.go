@@ -2,9 +2,10 @@ package typetalk
 
 import (
 	"errors"
-	"github.com/Sirupsen/logrus"
 	"net/http"
 	"net/url"
+
+	"github.com/sirupsen/logrus"
 )
 
 const (
