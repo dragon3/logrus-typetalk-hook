@@ -1,7 +1,7 @@
 logrus-typetalk-hook
 ========
 
-[Typetalk](https://typetalk.in) hook for [Logrus](https://github.com/Sirupsen/logrus). 
+[Typetalk](https://typetalk.com) hook for [Logrus](https://github.com/Sirupsen/logrus). 
 
 ## Use
 
@@ -15,7 +15,7 @@ import (
 
 func main() {
 	logrus.AddHook(&typetalk.TypetalkHook{
-		BotURL:        "https://typetalk.in/api/v1/topics/000?typetalkToken=abcdefghijklmnopqrstuvwxyz",
+		BotURL:        "https://typetalk.com/api/v1/topics/000?typetalkToken=abcdefghijklmnopqrstuvwxyz",
 		AcceptedLevels: typetalk.LevelThreshold(logrus.DebugLevel),
 	})
 
