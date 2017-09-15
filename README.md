@@ -1,7 +1,7 @@
 logrus-typetalk-hook
 ========
 
-[Typetalk](https://typetalk.com) hook for [Logrus](https://github.com/Sirupsen/logrus). 
+[Typetalk](https://typetalk.com) hook for [Logrus](https://github.com/sirupsen/logrus). 
 
 ## Use
 
@@ -9,7 +9,7 @@ logrus-typetalk-hook
 package main
 
 import (
-	logrus "github.com/Sirupsen/logrus"
+	logrus "github.com/sirupsen/logrus"
 	"github.com/dragon3/logrus-typetalk-hook"
 )
 
